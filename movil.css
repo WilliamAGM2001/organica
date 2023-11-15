@@ -4,6 +4,7 @@
   }
   nav {
     padding: 1px 0px;
+    overflow: hidden;
     
   }
 header{
@@ -41,7 +42,7 @@ header{
     left: 110%;
     z-index: 5;
     transition: all .4s;
-    overflow: hidden;
+    
   }
   nav ul.abrirmenu{
     left: 0;
