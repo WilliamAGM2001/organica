@@ -1,0 +1,98 @@
+@media screen and (max-width:480px){
+  .color_menu{
+    background-color: white;
+  }
+  nav {
+    padding: 1px 0px;
+    
+  }
+header{
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  
+}
+.menu_izquierda{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn_menu{
+  color: #6cb500;
+  font-size: 35px;
+  cursor: pointer;
+  display: flex;
+  }
+
+  nav ul{
+    background-color: #f2f2f2e0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width:100%;
+    padding:8px 15px;
+    position: absolute;
+    top: 120%;
+    left: 110%;
+    z-index: 5;
+    transition: all .4s;
+    overflow: hidden;
+  }
+  nav ul.abrirmenu{
+    left: 0;
+  }
+  nav ul li a{
+    display: block;
+    padding: 15px 0px;
+  }
+  nav ul li{
+    border-bottom: 2px dotted black;
+    width: 100%;
+  }
+  .slider{
+    background-image: url(imagenes/foto_slide.jpg);
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+  }
+  .slider p{
+    max-width: 565px;
+    color: white;
+    font-size: 41px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-family: Arimo;
+    line-height: 45px;
+    font-weight:lighter;
+  }
+  .servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 45px;
+    gap: 20px;
+  }
+  .servicios article{
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    width: 90%;
+    gap: 12px;
+    border-radius: 8px;
+  }
+
+
+
+}
