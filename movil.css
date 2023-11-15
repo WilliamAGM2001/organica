@@ -39,7 +39,7 @@ header{
     padding:8px 15px;
     position: absolute;
     top: 120%;
-    left: 110%;
+    left: -110%;
     z-index: 5;
     transition: all .4s;
     
